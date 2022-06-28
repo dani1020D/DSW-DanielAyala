@@ -1,0 +1,28 @@
+header{
+    background: #5F7161;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+nav{
+    background:#EFEAD8;
+}
+section{
+    background: #D0C9C0;
+    grid-column: 1/4;
+    
+}
+aside{
+    background:#6D8B74;
+    grid-column: 4/5;
+}
+footer{
+    background:#5F7161;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
